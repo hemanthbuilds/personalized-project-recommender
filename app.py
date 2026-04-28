@@ -23,12 +23,12 @@ html, body, [class*="css"] {
 
 /* ── Hero ── */
 .hero {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #065f46 0%, #059669 50%, #34d399 100%);
     border-radius: 20px;
     padding: 3rem 2.5rem;
     text-align: center;
     margin-bottom: 2.5rem;
-    box-shadow: 0 20px 60px rgba(99, 102, 241, 0.35);
+    box-shadow: 0 20px 60px rgba(5, 150, 105, 0.35);
 }
 .hero h1 {
     color: white;
@@ -46,8 +46,8 @@ html, body, [class*="css"] {
 
 /* ── Input card ── */
 .input-card {
-    background: #1e1e2e;
-    border: 1px solid #2d2d3f;
+    background: #0d1f16;
+    border: 1px solid #1a3a25;
     border-radius: 16px;
     padding: 1.8rem;
     margin-bottom: 1.5rem;
@@ -56,23 +56,23 @@ html, body, [class*="css"] {
 /* ── Streamlit input overrides ── */
 div[data-testid="stTextInput"] input,
 div[data-testid="stTextArea"] textarea {
-    background: #13131f !important;
-    border: 1.5px solid #3d3d55 !important;
+    background: #091610 !important;
+    border: 1.5px solid #1e3d28 !important;
     border-radius: 10px !important;
-    color: #e2e2f0 !important;
+    color: #e0f0e8 !important;
     font-size: 1rem !important;
     padding: 0.75rem 1rem !important;
 }
 div[data-testid="stTextInput"] input:focus,
 div[data-testid="stTextArea"] textarea:focus {
-    border-color: #6366f1 !important;
-    box-shadow: 0 0 0 3px rgba(99,102,241,0.2) !important;
+    border-color: #10b981 !important;
+    box-shadow: 0 0 0 3px rgba(16,185,129,0.2) !important;
 }
-label { color: #a0a0b8 !important; font-weight: 500 !important; font-size: 0.9rem !important; }
+label { color: #6b9980 !important; font-weight: 500 !important; font-size: 0.9rem !important; }
 
 /* ── Generate button ── */
 div[data-testid="stButton"] > button[kind="primary"] {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+    background: linear-gradient(135deg, #059669, #10b981) !important;
     border: none !important;
     border-radius: 12px !important;
     font-size: 1.05rem !important;
@@ -80,22 +80,22 @@ div[data-testid="stButton"] > button[kind="primary"] {
     padding: 0.75rem 1.5rem !important;
     color: white !important;
     letter-spacing: 0.2px !important;
-    box-shadow: 0 4px 20px rgba(99,102,241,0.4) !important;
+    box-shadow: 0 4px 20px rgba(16,185,129,0.4) !important;
     transition: all 0.2s ease !important;
 }
 div[data-testid="stButton"] > button[kind="primary"]:hover {
     transform: translateY(-1px) !important;
-    box-shadow: 0 8px 28px rgba(99,102,241,0.55) !important;
+    box-shadow: 0 8px 28px rgba(16,185,129,0.55) !important;
 }
 
 /* ── Summary banner ── */
 .summary-banner {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    border-left: 4px solid #6366f1;
+    background: linear-gradient(135deg, #0d1f16, #0a1f14);
+    border-left: 4px solid #10b981;
     border-radius: 12px;
     padding: 1.1rem 1.4rem;
     margin-bottom: 2rem;
-    color: #c8c8e0;
+    color: #a7f3d0;
     font-size: 0.97rem;
     line-height: 1.6;
 }
@@ -104,15 +104,15 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 .section-header {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #e2e2f0;
+    color: #e0f0e8;
     margin: 0 0 1.5rem 0;
     letter-spacing: -0.3px;
 }
 
 /* ── Project card ── */
 .project-card {
-    background: #1a1a2e;
-    border: 1px solid #2d2d4a;
+    background: #0d1f16;
+    border: 1px solid #1a3a25;
     border-radius: 18px;
     padding: 1.8rem 2rem;
     margin-bottom: 1.5rem;
@@ -122,13 +122,13 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 }
 .project-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 36px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 36px rgba(5,150,105,0.15);
 }
 
 /* ── Rank badge ── */
 .rank-1 { background: linear-gradient(135deg, #f59e0b, #f97316); }
-.rank-2 { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
-.rank-3 { background: linear-gradient(135deg, #10b981, #059669); }
+.rank-2 { background: linear-gradient(135deg, #10b981, #059669); }
+.rank-3 { background: linear-gradient(135deg, #14b8a6, #0d9488); }
 .rank-badge {
     display: inline-flex;
     align-items: center;
@@ -145,11 +145,11 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 .project-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #e2e2f0;
+    color: #e0f0e8;
     margin: 0.2rem 0 0.4rem 0;
 }
 .project-one-liner {
-    color: #8888aa;
+    color: #5a8a6a;
     font-size: 0.97rem;
     margin-bottom: 1.4rem;
     line-height: 1.5;
@@ -161,13 +161,13 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #6366f1;
+    color: #10b981;
     margin-bottom: 0.5rem;
 }
 
 /* ── Body text ── */
 .body-text {
-    color: #b0b0cc;
+    color: #8ab89a;
     font-size: 0.95rem;
     line-height: 1.65;
     margin-bottom: 1.2rem;
@@ -176,9 +176,9 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 /* ── Tech pill ── */
 .pill-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.2rem; }
 .pill {
-    background: rgba(99,102,241,0.15);
-    border: 1px solid rgba(99,102,241,0.35);
-    color: #a5b4fc;
+    background: rgba(16,185,129,0.12);
+    border: 1px solid rgba(16,185,129,0.3);
+    color: #6ee7b7;
     border-radius: 999px;
     padding: 0.25rem 0.75rem;
     font-size: 0.82rem;
@@ -190,9 +190,9 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
     display: inline-flex;
     align-items: center;
     gap: 0.3rem;
-    background: rgba(16,185,129,0.12);
-    border: 1px solid rgba(16,185,129,0.3);
-    color: #6ee7b7;
+    background: rgba(20,184,166,0.12);
+    border: 1px solid rgba(20,184,166,0.3);
+    color: #5eead4;
     border-radius: 999px;
     padding: 0.25rem 0.8rem;
     font-size: 0.82rem;
@@ -204,7 +204,7 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
     display: flex;
     align-items: flex-start;
     gap: 0.5rem;
-    color: #b0b0cc;
+    color: #8ab89a;
     font-size: 0.95rem;
     margin-bottom: 0.5rem;
     line-height: 1.5;
@@ -212,18 +212,18 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 .feature-dot {
     width: 6px; height: 6px;
     border-radius: 50%;
-    background: #6366f1;
+    background: #10b981;
     margin-top: 0.5rem;
     flex-shrink: 0;
 }
 
 /* ── Interview angle box ── */
 .interview-box {
-    background: rgba(99,102,241,0.08);
-    border: 1px solid rgba(99,102,241,0.25);
+    background: rgba(16,185,129,0.07);
+    border: 1px solid rgba(16,185,129,0.22);
     border-radius: 10px;
     padding: 0.9rem 1.1rem;
-    color: #c4c4e0;
+    color: #a7f3d0;
     font-size: 0.93rem;
     line-height: 1.6;
     margin-top: 0.4rem;
@@ -231,8 +231,8 @@ div[data-testid="stButton"] > button[kind="primary"]:hover {
 
 /* ── Sidebar ── */
 section[data-testid="stSidebar"] {
-    background: #13131f !important;
-    border-right: 1px solid #2d2d3f !important;
+    background: #091610 !important;
+    border-right: 1px solid #1a3a25 !important;
 }
 .sidebar-step {
     display: flex;
@@ -241,7 +241,7 @@ section[data-testid="stSidebar"] {
     margin-bottom: 1rem;
 }
 .step-num {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: linear-gradient(135deg, #059669, #10b981);
     color: white;
     border-radius: 50%;
     width: 26px; height: 26px;
@@ -251,11 +251,11 @@ section[data-testid="stSidebar"] {
     flex-shrink: 0;
     margin-top: 1px;
 }
-.step-text { color: #9090b0; font-size: 0.9rem; line-height: 1.4; }
-.sidebar-title { color: #e2e2f0; font-weight: 700; font-size: 1rem; margin-bottom: 1rem; }
+.step-text { color: #5a8a6a; font-size: 0.9rem; line-height: 1.4; }
+.sidebar-title { color: #e0f0e8; font-weight: 700; font-size: 1rem; margin-bottom: 1rem; }
 
 /* ── Divider ── */
-hr { border-color: #2d2d4a !important; margin: 2rem 0 !important; }
+hr { border-color: #1a3a25 !important; margin: 2rem 0 !important; }
 </style>
 """, unsafe_allow_html=True)
 
